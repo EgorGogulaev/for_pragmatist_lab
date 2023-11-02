@@ -23,7 +23,7 @@ if __name__ == '__main__':
     numbers = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
     operators = ['+', '-', '']
 
-    # with AI
+    # With AI
     for expression in generate_expressions(numbers, operators):
         if calculate_expression(expression) == 200:
             print(expression)
